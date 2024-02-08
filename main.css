@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .background-img{
+     height: 50vh;
+     background-image: url(../images/homeimg.jpg);
+     background-size:cover;
+     background-repeat : no-repeat;
+     background-position:right;
+     border-radius: 2rem;
+     margin:10px;
+     background-color: rgb(230, 230, 230);
+  }
+  
+  .background-img .Add{
+    margin-left:10rem;
+    margin-top: 7rem;
+    color:rgb(255, 255, 255);
+    background-color: blue;
+    width:10vh;
+    border-radius: 1rem;
+    border-color: rgb(174, 171, 171);
+  }
+
+  .background-img .title{
+    margin-left:65rem;
+    color: aliceblue;
+    width:0vh;
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    margin-left: 30rem;
+    color: rgb(6, 8, 10);
+    width:70vh;
+    height:50vh;
+    border-color: rgb(5, 5, 5);
+    text-align: left;
+    box-shadow: 0px 0px 10px 4px;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.main .one{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.main .two{
+    padding: 20px;
+}
+
+.main .three{
+    padding: 20px;
+}
+
+.main .four{
+    padding: 20px;
+}
+.pop-registration {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.714);
+    top: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-registration {
+    width: 30%;
+  
+    background-color: rgb(192, 255, 248);
+    padding: 2rem;
+  }
+  
+  .user-registration div {
+    display: flex;
+    flex-direction: column;
+  
+    margin-bottom: 10px;
+  }
+  
+  .user-registration div > label {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .user-registration div > input {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+  }
+  .user-registration div > input:focus {
+    border-bottom: 2px dashed green;
+  }
+  .btn {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    cursor: pointer;
+    /* x-axis y-axis blur scale color */
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+  }
+  
+  .btn-success {
+    box-shadow: 0 0 5px 0 green;
+  }
+  
+  .btn-danger {
+    box-shadow: 0 0 5px 0 red;
+  }
+  
+  .btn-success:hover {
+    box-shadow: 0 0 5px 2px green;
+  }
+  
+  .btn-danger:hover {
+    box-shadow: 0 0 5px 2px red;
+  }
+  
+  .d-none {
+    display: none !important;
+  }
